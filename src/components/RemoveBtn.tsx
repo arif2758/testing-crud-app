@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 
 
 
-export default function RemoveBtn() {
+export default function RemoveBtn({id}:{id:string}) {
   const router = useRouter()
 
   const removeTopic = async function () {
